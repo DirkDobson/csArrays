@@ -19,6 +19,13 @@ namespace csArrays
             Console.WriteLine(flags[1]);
             Console.WriteLine(flags[2]);
 
+            var names = new string[3] { "Dirk", "Buster", "Missy" };
+            for (int i = 0; i < names.Length; i++)
+            {
+                Console.WriteLine(names[i]);
+            }
+
+
         }
     }
 }
