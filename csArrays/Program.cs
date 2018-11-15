@@ -6,7 +6,8 @@ namespace csArrays
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var numbers = new int[3];
+            Console.WriteLine(numbers);
         }
     }
 }
